@@ -1,0 +1,15 @@
+C:\Users\kamni\Desktop\c#_seminars\bin\Debug\net7.0\c#_seminars.exe
+C:\Users\kamni\Desktop\c#_seminars\bin\Debug\net7.0\c#_seminars.deps.json
+C:\Users\kamni\Desktop\c#_seminars\bin\Debug\net7.0\c#_seminars.runtimeconfig.json
+C:\Users\kamni\Desktop\c#_seminars\bin\Debug\net7.0\c#_seminars.dll
+C:\Users\kamni\Desktop\c#_seminars\bin\Debug\net7.0\c#_seminars.pdb
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.csproj.AssemblyReference.cache
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.AssemblyInfoInputs.cache
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.AssemblyInfo.cs
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.csproj.CoreCompileInputs.cache
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.dll
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\refint\c#_seminars.dll
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.pdb
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\c#_seminars.genruntimeconfig.cache
+C:\Users\kamni\Desktop\c#_seminars\obj\Debug\net7.0\ref\c#_seminars.dll
