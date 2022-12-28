@@ -1,9 +1,9 @@
-sing System;
+using System;
 
 namespace main
 
 {
-   class Program7
+   class Program8
    {
    static void Main(string[] args){ 
 
