@@ -8,8 +8,6 @@ namespace main
    static void Main(string[] args){ 
 
     //ДЗ 1
-    Console.Clear();
-Console.WriteLine($"Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.");
 Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
 int m = InputNumbers("Введите m: ");
 int n = InputNumbers("Введите n: ");
@@ -73,8 +71,6 @@ void WriteArray(int[,] array)
 }
 
 // ДЗ 2
-Console.Clear();
-Console.WriteLine($"Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.");
 Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
 int m = InputNumbers("Введите m: ");
 int n = InputNumbers("Введите n: ");
@@ -141,7 +137,6 @@ void WriteArray (int[,] array)
 
 // ДЗ 3
 Console.Clear();
-Console.WriteLine($"Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.\n\nСразу зададим матрицу, которую можно перемножить, т.е. количество столбцов первой равно количеству строк второй");
 Console.WriteLine($"\nВведите размеры матриц и диапазон случайных значений:");
 int m = InputNumbers("Введите число строк 1-й матрицы: ");
 int n = InputNumbers("Введите число столбцов 1-й матрицы (и строк 2-й): ");
@@ -211,8 +206,6 @@ void WriteArray (int[,] array)
 }
 
 // Дз 4
-Console.Clear();
-Console.WriteLine($"Задача 60: Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.");
 Console.WriteLine($"\nВведите размер массива X x Y x Z:");
 int x = InputNumbers("Введите X: ");
 int y = InputNumbers("Введите Y: ");
@@ -282,6 +275,46 @@ void CreateArray(int[,,] array3D)
     }
   }
 }
+   //ДЗ 5
+   Console.Clear();
+int n = 4;
+int[,] sqareMatrix = new int[n, n];
+
+int temp = 1;
+int i = 0;
+int j = 0;
+
+while (temp <= sqareMatrix.GetLength(0) * sqareMatrix.GetLength(1))
+{
+  sqareMatrix[i, j] = temp;
+  temp++;
+  if (i <= j + 1 && i + j < sqareMatrix.GetLength(1) - 1)
+    j++;
+  else if (i < j && i + j >= sqareMatrix.GetLength(0) - 1)
+    i++;
+  else if (i >= j && i + j > sqareMatrix.GetLength(1) - 1)
+    j--;
+  else
+    i--;
+}
+
+WriteArray(sqareMatrix);
+
+void WriteArray (int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      if (array[i,j] / 10 <= 0)
+      Console.Write($" {array[i,j]} ");
+
+      else Console.Write($"{array[i,j]} ");
+    }
+    Console.WriteLine();
+  }
+}
+   
    }
    }
 }
